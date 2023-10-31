@@ -16,7 +16,7 @@ Para mantener todo organizado, vamos a utilizar una estructura de carpetas espec
 -   `utils/`
     -   `fetchFilms.js`: Aquí vas a implementar la lógica para obtener información de películas desde una fuente externa.
 -   `routes/`
-    -   `filmsRoutes.js`: En esta carpeta, manejarás las rutas relacionadas con las películas.
+    -   `films.js`: En esta carpeta, manejarás las rutas relacionadas con las películas.
 -   `.env`: Este archivo, en la raíz del proyecto, te permitirá manejar variables de entorno.
 -   `package.json`: Aquí se encuentran las dependencias y scripts de tu proyecto.
 -   `*.test.js`: Estos son los archivos de prueba. Te ayudarán a verificar que tu código hace lo que debe.
