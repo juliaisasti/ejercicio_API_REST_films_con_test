@@ -27,7 +27,7 @@ Para mantener todo organizado, vamos a utilizar una estructura de carpetas espec
 2.  Ejecuta `npm install` para instalar todas las dependencias necesarias para el proyecto.
 3.  Crea y configura tu archivo `.env` en la carpeta raíz con las variables necesarias para que la aplicación funcione correctamente.
 (API_KEY=tuapikey)
-4.  Crea un archivo .gitignore en la carpeta raíz para ignorar los ficheros .env y .gitignore al subir a GitHub.
+4.  Crea un archivo .gitignore en la carpeta raíz para ignorar los ficheros .env y node_modules al subir a GitHub.
 
 ### Tu Tarea
 
