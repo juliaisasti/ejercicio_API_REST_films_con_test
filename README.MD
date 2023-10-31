@@ -12,14 +12,14 @@ https://www.omdbapi.com/
 
 Para mantener todo organizado, vamos a utilizar una estructura de carpetas específica:
 
--   `app.js`: Este es tu archivo principal. Estará en la raíz de tu proyecto.
+-   `app.js`
 -   `utils/`
-    -   `fetchFilms.js`: Aquí vas a implementar la lógica para obtener información de películas desde una fuente externa.
+    -   `fetchFilms.js`
 -   `routes/`
-    -   `films.js`: En esta carpeta, manejarás las rutas relacionadas con las películas.
+    -   `films.js
 -   `.env`: Este archivo, en la raíz del proyecto, te permitirá manejar variables de entorno.
 -   `package.json`: Aquí se encuentran las dependencias y scripts de tu proyecto.
--   `*.test.js`: Estos son los archivos de prueba. Te ayudarán a verificar que tu código hace lo que debe.
+-   `*.test.js`: Archivos de prueba. Te ayudarán a verificar que tu código hace lo que debe.
 
 ### Primeros Pasos
 
