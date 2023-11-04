@@ -7,7 +7,7 @@ describe('Films API routes', () => {
     const title = 'Inception';
     const response = await request(app).get(`/api/film/${title}`);
     expect(response.statusCode).toBe(200, `Expected status code 200 when fetching movie '${title}', but got ${response.statusCode}.`);
-    expect(response.body.title).toBe(title, `Expected movie title to be '${title}', but got '${response.body.title}'.`);
+    expect(response.body.Title).toBe(title, `Expected movie title to be '${title}', but got '${response.body.title}'.`);
   });
 
   it('should return 404 for a non-existent movie', async () => {
